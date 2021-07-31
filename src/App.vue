@@ -1,9 +1,6 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <navigation />
+  <router-view />
 </template>
 
 <style>
@@ -28,3 +25,11 @@
   color: #42b983;
 }
 </style>
+
+<script>
+import navigation from '@/components/navigation.vue'
+
+export default {
+  components: { navigation }
+}
+</script>
