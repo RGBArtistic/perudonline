@@ -1,5 +1,5 @@
 <?php
-header("Access-Control-Allow-Origin: http://localhost:8080/*");// API utilisé par tous...
+header("Access-Control-Allow-Origin: *");// API utilisé par tous...
 //header("Access-Control-Allow-Origin: https://ludis-R5.fr"); (API autorisé depuis tel ou tel site )
 // 'Content-Type: application/json' permet de spécifier le type de contenu.`
 // ici, du JSON. La contrainte REST permet de dev' pour n'importe quel support et le JSON est parfait pour ça.

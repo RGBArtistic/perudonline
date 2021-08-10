@@ -23,6 +23,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "signin" */ '../views/SignIn.vue')
   },
   {
+    path: '/error',
+    name: 'Error',
+    component: () => import(/* webpackChunkName: "error" */ '../views/Error.vue')
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: () => import(/* webpackChunkName: "notFound" */ '../views/NotFound.vue')

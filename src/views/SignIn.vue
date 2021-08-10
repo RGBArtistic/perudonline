@@ -1,3 +1,6 @@
 <template>
-  <a href="../php/use/get.php">Go test</a>
+  <form action="" method="">
+    ''
+    <input type="button" value="S'enregistrer">
+  </form>
 </template>

@@ -6,10 +6,23 @@ GET http://localhost/perudonline/src/php/use/get.php HTTP/1.1
 content-type: application/json
 ###
 
-POST http://example.com/comments HTTP/1.1
+POST http://localhost/perudonline/src/php/use/post.php  HTTP/1.1
 content-type: application/json
 
 {
-    "name": "sample",
-    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+    "table": "test",
+    "prenom": "Josette",
+    "nom": "Pastis",
+    "genre": "f"
+}
+###
+
+PUT http://localhost/perudonline/src/php/use/update.php  HTTP/1.1
+content-type: application/json
+
+{
+    "table": "test",
+    "prenom": "Bernard",
+    "nom": "Pastaga",
+    "genre": "m"
 }
